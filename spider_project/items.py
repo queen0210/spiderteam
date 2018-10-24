@@ -22,4 +22,5 @@ class SpiderProjectItem(scrapy.Item):
     job_requirements = scrapy.Field()
     status = scrapy.Field()
     create_time = scrapy.Field()
+    net = scrapy.Field()
 
